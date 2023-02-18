@@ -1,0 +1,19 @@
+.places {
+  padding-top: clamp(64px, calc(88/768*100%),92px);
+  padding-left: max((50% - ((min(min(calc(768px + (100% - 768px)*0.625), 984px), 100%))/2)), 24px);
+  padding-right: max((50% - ((min(min(calc(768px + (100% - 768px)*0.625), 984px), 100%))/2)), 24px);
+  padding-bottom: clamp(66px,11.71875vw,92px);
+}
+
+@media screen and (max-width: 768px) {
+  .places {
+    padding-left: max(3.125vw, 16px);
+    padding-right: max(3.125vw, 16px);
+  }
+  @media screen and (max-width: 492px) {
+    .places {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+}

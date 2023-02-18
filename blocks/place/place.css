@@ -1,0 +1,21 @@
+.place{
+    display: grid;
+    grid-template-columns: min(42.96875vw, 460px) 1fr;
+    column-gap: max(3.125vw, 28px);
+    row-gap: min(10vw,48px)
+}
+
+.place:not(:first-child){
+    padding-top: clamp(50px, 9.5vw, 80px);
+}
+
+@media screen and (max-width: 1024px) {
+    .place{
+        grid-template-columns: calc(340px + 100*((100vw - 768px)/256)) 1fr;
+    }
+    @media screen and (max-width: 492px) {
+        .place{
+            grid-template-columns: 1fr;
+        }
+    }
+}

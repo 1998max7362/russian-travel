@@ -1,3 +1,8 @@
 .link{
     color: white;
+    text-decoration: none;
+}
+
+.link:first{
+    text-decoration: underline;
 }

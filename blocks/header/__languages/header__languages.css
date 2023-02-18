@@ -1,8 +1,0 @@
-.header__languages{
-    font-size: 24px;
-    line-height: 28px;
-    color: white;
-    display: grid;
-    grid-template-columns: auto   auto;
-    gap: 18px;
-}

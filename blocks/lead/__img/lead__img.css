@@ -1,0 +1,17 @@
+.lead__img {
+  width: min(min(calc(768px + (100% - 768px)*0.625), 984px), 100%);
+  height: auto;
+  margin: min(5.46875vw, 64px) auto 8px;
+  display: block;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__img {
+    margin-top: 56px;
+  }
+  @media screen and (max-width: 768px) {
+    .lead__img {
+      margin-top: min(12.5vw, 56px);
+    }
+  }
+}

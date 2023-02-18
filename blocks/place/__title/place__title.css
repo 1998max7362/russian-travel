@@ -1,0 +1,16 @@
+.place__title{
+  margin: 0;
+  font-style: normal;
+  font-weight: 900;
+  font-size: max(32px,min(calc(42px + ((100vw - 768px)/256*30)),72px));
+  padding-right: 10px;
+  line-height: clamp(46px,109% ,76px);
+}
+
+@media screen and (max-width: 492px) {
+  .place__title {
+    padding-left: 16px;
+    padding-right: 16px;
+    line-height: 109.375%;
+  }
+}

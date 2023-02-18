@@ -1,0 +1,12 @@
+.intro__titile{
+    margin: 0;
+    margin-bottom: 40px;
+    font-size: min(10vw, 54px);
+    line-height: min(109.375%, 58px);
+    /* max-width: 288px; */
+    /* max-height: 70px; */
+    font-weight: 900;
+    font-style: normal;
+    padding-right: 45px;
+    
+}

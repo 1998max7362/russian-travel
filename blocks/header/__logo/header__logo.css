@@ -1,0 +1,6 @@
+.header__logo{
+    /* max-width: 176px;
+    max-height: 52px; */
+    width: min(44.375vw,176px);
+    height:  min(13.125vw,52px);;
+}

@@ -1,0 +1,15 @@
+.cover__subtitle{
+    margin: 0;
+    width: min(90vw,360px);
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+    color: #FFFFFF;
+    z-index: 2;
+    font-size: min(4.375vw,18px);
+    line-height: min(5vw, 22px);
+}
+
+/* .cover__subtitle:hover + .cover__background__overlay{
+    opacity: 0.8;
+} */

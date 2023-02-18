@@ -1,0 +1,7 @@
+.header__lang-links{
+    color: white;
+    display: grid;
+    grid-template-columns: auto   auto;
+    gap: min(5.625vw ,18px);
+    padding-bottom: 2px;
+}

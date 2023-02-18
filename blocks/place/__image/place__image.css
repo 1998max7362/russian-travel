@@ -1,0 +1,12 @@
+.place__image {
+  width: 100%;
+  height: auto;
+}
+
+
+@media screen and (max-width: 492px) {
+  .place__image{
+      width: min(100vw, 460px);
+      padding-left: max(calc((100vw - 460px)/2), 0px);
+  }
+}

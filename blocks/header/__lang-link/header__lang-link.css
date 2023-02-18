@@ -1,0 +1,4 @@
+.header__lang-link{
+    font-size: min(5.625vw ,24px);
+    line-height: 1.15;
+}

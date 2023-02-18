@@ -1,0 +1,11 @@
+.place__text-paragraph{
+    font-size: clamp(16px, 1.9vw,18px);
+    line-height: 163%;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+}
+
+.place__text-paragraph:not(:last-child){
+    margin-bottom: clamp(25px, 3.26vw,26px);
+}
