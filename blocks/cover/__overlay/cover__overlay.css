@@ -5,6 +5,11 @@
     background: #2A2C2F;
     opacity: 0.3;
 }
-/* .cover__background__overlay:hover{
+
+.cover__background:hover .cover__overlay{
     opacity: 0.8;
-} */
+}
+
+.cover__title:hover .cover__background__overlay{
+    opacity: 0.8;
+}

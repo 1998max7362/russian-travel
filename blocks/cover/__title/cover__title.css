@@ -11,6 +11,3 @@
     line-height: min(109.375%, 76px);
 }
 
-.cover__title:hover .cover__background__overlay{
-    opacity: 0.8;
-}

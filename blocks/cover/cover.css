@@ -1,5 +1,5 @@
 .cover{
-    padding-left: max(0px,calc((100vw - 1184px)/96*48));
-    padding-right: max(0px,calc((100vw - 1184px)/96*48));
+    padding-left: min(max(0px,calc((100vw - 1184px)/96*48)),48px);
+    padding-right: min(max(0px,calc((100vw - 1184px)/96*48)),48px);
     padding-bottom: min(calc(64px + (100vw - 320px)/448*24),92px);
 }
