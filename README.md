@@ -5,6 +5,7 @@
 * Figma
 * Красивейшие места
 * Используемые технологии
+* GitHub Pages
 
 **Russian Travel**
 
@@ -30,3 +31,7 @@
 ***Медиазапросы <br />***
 ***Куча css <br />***
 ***Куча формул для расчета отступов (соре, я окончил бомонку) <br />***
+
+**GitHub Pages**
+
+***Ссылка на GitHub Pages: https://1998max7362.github.io/russian-travel/index.html
