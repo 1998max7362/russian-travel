@@ -7,6 +7,6 @@
 @media screen and (max-width: 767px){
     .footer__links{
         grid-template-columns: auto;
-        gap: 32px
+        gap: 32px;
     }
 }
