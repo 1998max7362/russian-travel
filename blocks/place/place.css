@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: min(42.96875vw, 460px) 1fr;
     column-gap: max(3.125vw, 28px);
-    row-gap: min(10vw,48px)
+    row-gap: min(10vw,48px);
 }
 
 .place:not(:first-child){
